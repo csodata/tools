@@ -8,7 +8,7 @@ Code is written using JavaScript for the node platform (tested on version 19).
 * [CSO-all-meta.json](data/processed/CSO-all-meta.json) - metadata (e.g. total minutes) derived from analysing the downloaded data.
 * [CSO-all.json](data/processed/CSO-all.json) - all data retrieved from Southern Water.
 * [CSO-all-simplified-historic-spills.json](data/processed/CSO-all-simplified-historic-spills.json) - all data, but with duplicate data removed from historic spills which reduces the size by ~50%.
-* [CSO-all-no-historic-spills.csv](CSO-all-no-historic-spills.csv) - all data as a CSV file (with historic spills data removed).
+* [CSO-all-no-historic-spills.csv](data/processed/CSO-all-no-historic-spills.csv) - all data as a CSV file (with historic spills data removed).
 
 ## Tools
 If you just want to use the data, you probably don't need to run these tools and can focus on the [data](/data) folder.
