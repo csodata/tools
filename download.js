@@ -7,13 +7,22 @@ const args = parseArgs({
   options: {
     update: { type: "boolean", short: "u", default: false },
     all: { type: "boolean", short: "a", default: false },
-    from: { type: "string", short: "f", default: "1"},
-    to: { type: "string", short: "t", default: "3"},
+    from: { type: "string", short: "f"},
+    to: { type: "string", short: "t"},
   },
 });
 
-let from = args.values.all ? 1 : Number(args.values.from);
-let to = args.values.all ? Infinity : Number(args.values.to);
+let from = 1;
+let to = 3;
+
+if (args.values.from) {
+    from = Number(args.values.from);
+    to = Infinity;
+}
+
+if (args.values.to) {
+    to = Number(args.values.to);
+}
 
 if (args.values.update) {
     // find the last page based on the files in data/raw
@@ -22,8 +31,6 @@ if (args.values.update) {
     from = csoFiles.length;
     to = Infinity;
 }
-
-console.log(from, to);
 
 async function retrievePage(url) {
     const response = await fetch(
@@ -40,9 +47,28 @@ async function storePage(fn, data) {
     );
 }
 
-let obj = {totalPages: to};
-for (let page = from; page <= obj.totalPages; page++) {
-    console.log(`Page ${page} of ${obj.totalPages}`);
-    obj = await retrievePage(`https://www.southernwater.co.uk/gateway/Beachbuoy/1.0/api/v1.0/Spills/GetHistoricSpills?status=Genuine&page=${page}`);
-    await storePage(`CSO-${page}.json`, obj);
+// if to is infinity, find how high it should go by downloading the first page
+if (to === Infinity) {
+    const obj = await retrievePage(`https://www.southernwater.co.uk/gateway/Beachbuoy/1.0/api/v1.0/Spills/GetHistoricSpills?page=${from}`);
+    to = obj.totalPages;
+}
+
+// create an array of numbers from 'from' to 'to'
+const todo = [];
+for (let i = ++from; i <= to; i++) {
+    todo.push(i);
+}
+
+log(`Queued ${todo.length} pages for download.`);
+
+while (todo.length) {
+    const page = todo.shift();
+    try {
+        const obj = await retrievePage(`https://www.southernwater.co.uk/gateway/Beachbuoy/1.0/api/v1.0/Spills/GetHistoricSpills?page=${page}`);
+        await storePage(`CSO-${page}.json`, obj);
+        log(`Downloaded page ${page} of ${to}`);    
+    } catch {
+        todo.push(page);
+        log(`Failed to download page ${page} - readded to queue`);
+    }
 }
