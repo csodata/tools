@@ -1,0 +1,12 @@
+{
+  "name": "GetCSO",
+  "version": "1.0.0",
+  "description": "CSO discharge data from Southern Water's Beachbuoy service",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "more README.md"
+  },
+  "author": "Rich Boakes <rich.boakes@port.ac.uk>",
+  "license": "ISC"
+}
