@@ -48,8 +48,8 @@ async function generateCSV() {
   await report(outPath)
 }
 
-async function reportMinutes() {
-  const outPath = path.join(outputPath, 'CSO-all-minutes.json');
+async function reportMeta() {
+  const outPath = path.join(outputPath, 'CSO-all-meta.json');
   const data = JSON.parse(await fs.readFile(inPath, 'utf-8'));
 
   const items = data.items;
@@ -70,21 +70,21 @@ async function reportMinutes() {
   const minutesMax = Math.max(...minutesFlat);
   const minutesMin = Math.min(...minutesFlat);
 
-  const minutesReport = {
+  const metaReport = {
     minutesSum,
     minutesMean,
     minutesMax,
     minutesMin
   };
 
-  await fs.writeFile(outPath, JSON.stringify(minutesReport, null, 2));
+  await fs.writeFile(outPath, JSON.stringify(metaReport, null, 2));
   await report(outPath)
 }
 
 try {
   filterHistoricSpills();
   generateCSV();
-  reportMinutes();  
+  reportMeta();  
 } catch (error) {
   console.error(error);
 }
