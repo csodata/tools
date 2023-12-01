@@ -2,16 +2,17 @@ import { log } from 'console';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-const directoryPath = './data/';
+const inPath = './data/raw';
+const outPath = './data/processed';
 
 async function combine() {
-  const files = await fs.readdir(directoryPath);
+  const files = await fs.readdir(inPath);
   const csoFiles = files.filter(file => /^CSO-\d+\.json$/.test(file));
 
   const result = { pages: [], totalPages: 0, totalItems: 0, items: [] };
 
   for (const file of csoFiles) {
-    const filePath = path.join(directoryPath, file);
+    const filePath = path.join(inPath, file);
     const data = JSON.parse(await fs.readFile(filePath, 'utf-8'));
 
     result.items.push(...data.items);
@@ -32,7 +33,7 @@ async function combine() {
 
   log(`✅ The actual number of pages (${result.pages.length}) and items (${result.items.length}) matches that stated in the files.`)
 
-  const outputFile = path.join(directoryPath, 'CSO-all.json');
+  const outputFile = path.join(outPath, 'CSO-all.json');
 
   await fs.writeFile(outputFile, JSON.stringify(result, null, 2));
 
