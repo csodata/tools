@@ -3,7 +3,7 @@
 
 This repository  contains CSO discharge data from Southern Water's Beachbuoy service as well as the tools used to download and process it.
 Code is written using JavaScript/node (tested on version 19).
-Repository: ([https://github.com/portsoc/getcso](https://github.com/portsoc/getcso))
+Repository: [https://github.com/portsoc/getcso](https://github.com/portsoc/getcso)
 
 ## Discharge Data
 * [CSO-all-meta.json](data/processed/CSO-all-meta.json) - metadata (e.g. total minutes) derived from analysing the downloaded data.
