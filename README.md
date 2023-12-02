@@ -6,9 +6,17 @@ Code is written using JavaScript/node (tested on version 19).
 Repository: [https://github.com/portsoc/getcso](https://github.com/portsoc/getcso)
 
 ## Discharge Data
+If there's a file format that you desire, let us know in the [issues](issues) page.
+
+### JSON files
 * [CSO-all-meta.json](data/processed/CSO-all-meta.json) - metadata (e.g. total minutes) derived from analysing the downloaded data.
 * [CSO-all.json](data/processed/CSO-all.json) - all data retrieved from Southern Water.
 * [CSO-all-simplified-historic-spills.json](data/processed/CSO-all-simplified-historic-spills.json) - all data, but with duplicate data removed from historic spills which reduces the size by ~50%.
+* [CSO-status-genuine.json](data/processed/CSO-status-genuine.json)
+* [CSO-status-not-genuine.json](data/processed/CSO-status-not-genuine.json)
+* [CSO-status-under-review.json](data/processed/CSO-status-under-review.json)
+
+### Comma Separatyed variable
 * [CSO-all-no-historic-spills.csv](data/processed/CSO-all-no-historic-spills.csv) - all data as a CSV file (with historic spills data removed).
 
 ## Tools
