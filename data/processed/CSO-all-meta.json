@@ -1,4 +1,16 @@
 {
+  "events": {
+    "totalClaimed": 21025,
+    "statuses": [
+      "Not Genuine",
+      "Genuine",
+      "Under Review"
+    ],
+    "genuine": 18711,
+    "notGenuine": 1752,
+    "other": 562,
+    "totalProcessed": 21025
+  },
   "minutesSum": 7870427,
   "minutesMean": 291.5620878713788,
   "minutesMax": 63536,
