@@ -1,10 +1,25 @@
 {
   "currentPage": 126,
-  "totalItems": 21025,
-  "totalPages": 841,
+  "totalItems": 21026,
+  "totalPages": 842,
   "items": [
     {
-      "id": 344796142,
+      "id": 345454793,
+      "eventId": 893016,
+      "siteUnitNumber": 12549,
+      "bathingSite": "HERNE BAY CENTRAL",
+      "eventStart": "2023-11-02T10:04:00",
+      "eventStop": "2023-11-02T10:07:00",
+      "duration": 3,
+      "status": "Genuine",
+      "associatedSiteId": 109678,
+      "outfallName": "EDDINGTON LANE HERNE BAY NO2",
+      "isImpacting": false,
+      "overFlowSiteId": 0,
+      "historicSpillsList": []
+    },
+    {
+      "id": 345477744,
       "eventId": 891487,
       "siteUnitNumber": 12575,
       "bathingSite": "HASTINGS PELHAM BEACH",
@@ -14,42 +29,12 @@
       "status": "Genuine",
       "associatedSiteId": 109982,
       "outfallName": "COOMBS HASTINGS",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344796142,
-          "eventId": 891487,
-          "siteUnitNumber": 12575,
-          "bathingSite": "HASTINGS PELHAM BEACH",
-          "eventStart": "2023-11-02T09:49:06",
-          "eventStop": "2023-11-02T10:04:29",
-          "duration": 15,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211
-        },
-        {
-          "id": 344796143,
-          "eventId": 891487,
-          "siteUnitNumber": 12576,
-          "bathingSite": "ST LEONARDS",
-          "eventStart": "2023-11-02T09:49:06",
-          "eventStop": "2023-11-02T10:04:29",
-          "duration": 15,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344773196,
+      "id": 345454797,
       "eventId": 893014,
       "siteUnitNumber": 12549,
       "bathingSite": "HERNE BAY CENTRAL",
@@ -59,42 +44,12 @@
       "status": "Genuine",
       "associatedSiteId": 109678,
       "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344773196,
-          "eventId": 893014,
-          "siteUnitNumber": 12549,
-          "bathingSite": "HERNE BAY CENTRAL",
-          "eventStart": "2023-11-02T09:52:00",
-          "eventStop": "2023-11-02T09:55:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093
-        },
-        {
-          "id": 344773197,
-          "eventId": 893014,
-          "siteUnitNumber": 12551,
-          "bathingSite": "HERNE BAY",
-          "eventStart": "2023-11-02T09:52:00",
-          "eventStop": "2023-11-02T09:55:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344809456,
+      "id": 345491058,
       "eventId": 891419,
       "siteUnitNumber": 12615,
       "bathingSite": "COLWELL BAY",
@@ -108,7 +63,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344809456,
+          "id": 345491058,
           "eventId": 891419,
           "siteUnitNumber": 12615,
           "bathingSite": "COLWELL BAY",
@@ -122,7 +77,7 @@
           "overFlowSiteId": 109524
         },
         {
-          "id": 344809457,
+          "id": 345491059,
           "eventId": 891419,
           "siteUnitNumber": 12614,
           "bathingSite": "TOTLAND BAY",
@@ -139,7 +94,7 @@
       ]
     },
     {
-      "id": 344789242,
+      "id": 345470843,
       "eventId": 893038,
       "siteUnitNumber": 12586,
       "bathingSite": "HOVE",
@@ -153,7 +108,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344789242,
+          "id": 345470843,
           "eventId": 893038,
           "siteUnitNumber": 12586,
           "bathingSite": "HOVE",
@@ -167,7 +122,7 @@
           "overFlowSiteId": 115434
         },
         {
-          "id": 344789243,
+          "id": 345470844,
           "eventId": 893038,
           "siteUnitNumber": 12587,
           "bathingSite": "SOUTHWICK",
@@ -182,7 +137,7 @@
           "historicSpillsList": []
         },
         {
-          "id": 344789244,
+          "id": 345470845,
           "eventId": 893038,
           "siteUnitNumber": 12588,
           "bathingSite": "SHOREHAM BEACH",
@@ -199,7 +154,7 @@
       ]
     },
     {
-      "id": 344780368,
+      "id": 345461969,
       "eventId": 890511,
       "siteUnitNumber": 12661,
       "bathingSite": "LANGSTONE HARBOUR",
@@ -213,7 +168,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344780368,
+          "id": 345461969,
           "eventId": 890511,
           "siteUnitNumber": 12661,
           "bathingSite": "LANGSTONE HARBOUR",
@@ -229,7 +184,7 @@
       ]
     },
     {
-      "id": 344796140,
+      "id": 345477742,
       "eventId": 891453,
       "siteUnitNumber": 12575,
       "bathingSite": "HASTINGS PELHAM BEACH",
@@ -239,42 +194,12 @@
       "status": "Genuine",
       "associatedSiteId": 109982,
       "outfallName": "COOMBS HASTINGS",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344796140,
-          "eventId": 891453,
-          "siteUnitNumber": 12575,
-          "bathingSite": "HASTINGS PELHAM BEACH",
-          "eventStart": "2023-11-02T09:31:49",
-          "eventStop": "2023-11-02T09:44:05",
-          "duration": 12,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211
-        },
-        {
-          "id": 344796141,
-          "eventId": 891453,
-          "siteUnitNumber": 12576,
-          "bathingSite": "ST LEONARDS",
-          "eventStart": "2023-11-02T09:31:49",
-          "eventStop": "2023-11-02T09:44:05",
-          "duration": 12,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344791244,
+      "id": 345472845,
       "eventId": 890793,
       "siteUnitNumber": 12582,
       "bathingSite": "SEAFORD",
@@ -288,21 +213,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344791244,
-          "eventId": 890793,
-          "siteUnitNumber": 12582,
-          "bathingSite": "SEAFORD",
-          "eventStart": "2023-11-02T03:51:50",
-          "eventStop": "2023-11-02T09:42:00",
-          "duration": 350,
-          "status": "Genuine",
-          "associatedSiteId": 109957,
-          "outfallName": "PORTOBELLO BRIGHTON NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 116012
-        },
-        {
-          "id": 344791245,
+          "id": 345472846,
           "eventId": 890793,
           "siteUnitNumber": 12583,
           "bathingSite": "SALTDEAN",
@@ -319,7 +230,7 @@
       ]
     },
     {
-      "id": 344773198,
+      "id": 345454799,
       "eventId": 892964,
       "siteUnitNumber": 12549,
       "bathingSite": "HERNE BAY CENTRAL",
@@ -329,42 +240,12 @@
       "status": "Genuine",
       "associatedSiteId": 109678,
       "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344773198,
-          "eventId": 892964,
-          "siteUnitNumber": 12549,
-          "bathingSite": "HERNE BAY CENTRAL",
-          "eventStart": "2023-11-02T09:38:00",
-          "eventStop": "2023-11-02T09:40:00",
-          "duration": 2,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093
-        },
-        {
-          "id": 344773199,
-          "eventId": 892964,
-          "siteUnitNumber": 12551,
-          "bathingSite": "HERNE BAY",
-          "eventStart": "2023-11-02T09:38:00",
-          "eventStop": "2023-11-02T09:40:00",
-          "duration": 2,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344796146,
+      "id": 345477748,
       "eventId": 891420,
       "siteUnitNumber": 12575,
       "bathingSite": "HASTINGS PELHAM BEACH",
@@ -374,42 +255,12 @@
       "status": "Genuine",
       "associatedSiteId": 109982,
       "outfallName": "COOMBS HASTINGS",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344796146,
-          "eventId": 891420,
-          "siteUnitNumber": 12575,
-          "bathingSite": "HASTINGS PELHAM BEACH",
-          "eventStart": "2023-11-02T09:15:00",
-          "eventStop": "2023-11-02T09:30:00",
-          "duration": 15,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211
-        },
-        {
-          "id": 344796147,
-          "eventId": 891420,
-          "siteUnitNumber": 12576,
-          "bathingSite": "ST LEONARDS",
-          "eventStart": "2023-11-02T09:15:00",
-          "eventStop": "2023-11-02T09:30:00",
-          "duration": 15,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344773200,
+      "id": 345454801,
       "eventId": 892946,
       "siteUnitNumber": 12549,
       "bathingSite": "HERNE BAY CENTRAL",
@@ -419,42 +270,12 @@
       "status": "Genuine",
       "associatedSiteId": 109678,
       "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344773200,
-          "eventId": 892946,
-          "siteUnitNumber": 12549,
-          "bathingSite": "HERNE BAY CENTRAL",
-          "eventStart": "2023-11-02T09:23:00",
-          "eventStop": "2023-11-02T09:26:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093
-        },
-        {
-          "id": 344773201,
-          "eventId": 892946,
-          "siteUnitNumber": 12551,
-          "bathingSite": "HERNE BAY",
-          "eventStart": "2023-11-02T09:23:00",
-          "eventStop": "2023-11-02T09:26:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344790275,
+      "id": 345471876,
       "eventId": 891427,
       "siteUnitNumber": 12619,
       "bathingSite": "SEAGROVE",
@@ -468,21 +289,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344790275,
-          "eventId": 891427,
-          "siteUnitNumber": 12619,
-          "bathingSite": "SEAGROVE",
-          "eventStart": "2023-11-02T01:42:01",
-          "eventStop": "2023-11-02T09:20:00",
-          "duration": 457,
-          "status": "Genuine",
-          "associatedSiteId": 109938,
-          "outfallName": "THE POINT BEMBRIDGE",
-          "isImpacting": true,
-          "overFlowSiteId": 110194
-        },
-        {
-          "id": 344790276,
+          "id": 345471877,
           "eventId": 891427,
           "siteUnitNumber": 12620,
           "bathingSite": "ST HELENS",
@@ -495,26 +302,11 @@
           "isImpacting": true,
           "overFlowSiteId": 110194,
           "historicSpillsList": []
-        },
-        {
-          "id": 344790277,
-          "eventId": 891427,
-          "siteUnitNumber": 12621,
-          "bathingSite": "BEMBRIDGE",
-          "eventStart": "2023-11-02T01:42:01",
-          "eventStop": "2023-11-02T09:20:00",
-          "duration": 457,
-          "status": "Genuine",
-          "associatedSiteId": 109938,
-          "outfallName": "THE POINT BEMBRIDGE",
-          "isImpacting": true,
-          "overFlowSiteId": 110194,
-          "historicSpillsList": []
         }
       ]
     },
     {
-      "id": 344773202,
+      "id": 345454803,
       "eventId": 892933,
       "siteUnitNumber": 12549,
       "bathingSite": "HERNE BAY CENTRAL",
@@ -524,42 +316,12 @@
       "status": "Genuine",
       "associatedSiteId": 109678,
       "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344773202,
-          "eventId": 892933,
-          "siteUnitNumber": 12549,
-          "bathingSite": "HERNE BAY CENTRAL",
-          "eventStart": "2023-11-02T09:10:00",
-          "eventStop": "2023-11-02T09:12:00",
-          "duration": 2,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093
-        },
-        {
-          "id": 344773203,
-          "eventId": 892933,
-          "siteUnitNumber": 12551,
-          "bathingSite": "HERNE BAY",
-          "eventStart": "2023-11-02T09:10:00",
-          "eventStop": "2023-11-02T09:12:00",
-          "duration": 2,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344796144,
+      "id": 345477746,
       "eventId": 891411,
       "siteUnitNumber": 12575,
       "bathingSite": "HASTINGS PELHAM BEACH",
@@ -569,42 +331,12 @@
       "status": "Genuine",
       "associatedSiteId": 109982,
       "outfallName": "COOMBS HASTINGS",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344796144,
-          "eventId": 891411,
-          "siteUnitNumber": 12575,
-          "bathingSite": "HASTINGS PELHAM BEACH",
-          "eventStart": "2023-11-02T09:02:06",
-          "eventStop": "2023-11-02T09:11:38",
-          "duration": 9,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211
-        },
-        {
-          "id": 344796145,
-          "eventId": 891411,
-          "siteUnitNumber": 12576,
-          "bathingSite": "ST LEONARDS",
-          "eventStart": "2023-11-02T09:02:06",
-          "eventStop": "2023-11-02T09:11:38",
-          "duration": 9,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344809458,
+      "id": 345491060,
       "eventId": 891389,
       "siteUnitNumber": 12614,
       "bathingSite": "TOTLAND BAY",
@@ -618,7 +350,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344809458,
+          "id": 345491060,
           "eventId": 891389,
           "siteUnitNumber": 12614,
           "bathingSite": "TOTLAND BAY",
@@ -632,7 +364,7 @@
           "overFlowSiteId": 109524
         },
         {
-          "id": 344809459,
+          "id": 345491061,
           "eventId": 891389,
           "siteUnitNumber": 12615,
           "bathingSite": "COLWELL BAY",
@@ -649,7 +381,7 @@
       ]
     },
     {
-      "id": 344780192,
+      "id": 345461793,
       "eventId": 890023,
       "siteUnitNumber": 12610,
       "bathingSite": "MILFORD-ON-SEA",
@@ -659,57 +391,12 @@
       "status": "Genuine",
       "associatedSiteId": 109801,
       "outfallName": "BECTON LANE BARTON ON SEA",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344780192,
-          "eventId": 890023,
-          "siteUnitNumber": 12610,
-          "bathingSite": "MILFORD-ON-SEA",
-          "eventStart": "2023-11-02T00:15:00",
-          "eventStop": "2023-11-02T08:59:00",
-          "duration": 524,
-          "status": "Genuine",
-          "associatedSiteId": 109801,
-          "outfallName": "BECTON LANE BARTON ON SEA",
-          "isImpacting": true,
-          "overFlowSiteId": 108766
-        },
-        {
-          "id": 344780193,
-          "eventId": 890023,
-          "siteUnitNumber": 12611,
-          "bathingSite": "CHRISTCHURCH BAY",
-          "eventStart": "2023-11-02T00:15:00",
-          "eventStop": "2023-11-02T08:59:00",
-          "duration": 524,
-          "status": "Genuine",
-          "associatedSiteId": 109801,
-          "outfallName": "BECTON LANE BARTON ON SEA",
-          "isImpacting": true,
-          "overFlowSiteId": 108766,
-          "historicSpillsList": []
-        },
-        {
-          "id": 344780194,
-          "eventId": 890023,
-          "siteUnitNumber": 12612,
-          "bathingSite": "HIGHCLIFFE",
-          "eventStart": "2023-11-02T00:15:00",
-          "eventStop": "2023-11-02T08:59:00",
-          "duration": 524,
-          "status": "Genuine",
-          "associatedSiteId": 109801,
-          "outfallName": "BECTON LANE BARTON ON SEA",
-          "isImpacting": true,
-          "overFlowSiteId": 108766,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344796150,
+      "id": 345477752,
       "eventId": 891381,
       "siteUnitNumber": 12575,
       "bathingSite": "HASTINGS PELHAM BEACH",
@@ -719,42 +406,12 @@
       "status": "Genuine",
       "associatedSiteId": 109982,
       "outfallName": "COOMBS HASTINGS",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344796150,
-          "eventId": 891381,
-          "siteUnitNumber": 12575,
-          "bathingSite": "HASTINGS PELHAM BEACH",
-          "eventStart": "2023-11-02T08:47:29",
-          "eventStop": "2023-11-02T08:58:21",
-          "duration": 10,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211
-        },
-        {
-          "id": 344796151,
-          "eventId": 891381,
-          "siteUnitNumber": 12576,
-          "bathingSite": "ST LEONARDS",
-          "eventStart": "2023-11-02T08:47:29",
-          "eventStop": "2023-11-02T08:58:21",
-          "duration": 10,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344782453,
+      "id": 345464054,
       "eventId": 891372,
       "siteUnitNumber": 12547,
       "bathingSite": "WEST BEACH WHITSTABLE",
@@ -764,12 +421,12 @@
       "status": "Not Genuine",
       "associatedSiteId": 109831,
       "outfallName": "TANKERTON CIRCUS",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
       "historicSpillsList": []
     },
     {
-      "id": 344773204,
+      "id": 345454805,
       "eventId": 892927,
       "siteUnitNumber": 12549,
       "bathingSite": "HERNE BAY CENTRAL",
@@ -779,42 +436,12 @@
       "status": "Genuine",
       "associatedSiteId": 109678,
       "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344773204,
-          "eventId": 892927,
-          "siteUnitNumber": 12549,
-          "bathingSite": "HERNE BAY CENTRAL",
-          "eventStart": "2023-11-02T08:54:00",
-          "eventStop": "2023-11-02T08:57:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093
-        },
-        {
-          "id": 344773205,
-          "eventId": 892927,
-          "siteUnitNumber": 12551,
-          "bathingSite": "HERNE BAY",
-          "eventStart": "2023-11-02T08:54:00",
-          "eventStop": "2023-11-02T08:57:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     },
     {
-      "id": 344789248,
+      "id": 345470849,
       "eventId": 893037,
       "siteUnitNumber": 12586,
       "bathingSite": "HOVE",
@@ -828,7 +455,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344789248,
+          "id": 345470849,
           "eventId": 893037,
           "siteUnitNumber": 12586,
           "bathingSite": "HOVE",
@@ -842,7 +469,7 @@
           "overFlowSiteId": 115434
         },
         {
-          "id": 344789249,
+          "id": 345470850,
           "eventId": 893037,
           "siteUnitNumber": 12587,
           "bathingSite": "SOUTHWICK",
@@ -857,7 +484,7 @@
           "historicSpillsList": []
         },
         {
-          "id": 344789250,
+          "id": 345470851,
           "eventId": 893037,
           "siteUnitNumber": 12588,
           "bathingSite": "SHOREHAM BEACH",
@@ -874,7 +501,7 @@
       ]
     },
     {
-      "id": 344809460,
+      "id": 345491062,
       "eventId": 891304,
       "siteUnitNumber": 12614,
       "bathingSite": "TOTLAND BAY",
@@ -888,7 +515,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344809460,
+          "id": 345491062,
           "eventId": 891304,
           "siteUnitNumber": 12614,
           "bathingSite": "TOTLAND BAY",
@@ -902,7 +529,7 @@
           "overFlowSiteId": 109524
         },
         {
-          "id": 344809461,
+          "id": 345491063,
           "eventId": 891304,
           "siteUnitNumber": 12615,
           "bathingSite": "COLWELL BAY",
@@ -919,7 +546,7 @@
       ]
     },
     {
-      "id": 344789254,
+      "id": 345470855,
       "eventId": 893036,
       "siteUnitNumber": 12586,
       "bathingSite": "HOVE",
@@ -933,7 +560,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344789254,
+          "id": 345470855,
           "eventId": 893036,
           "siteUnitNumber": 12586,
           "bathingSite": "HOVE",
@@ -947,7 +574,7 @@
           "overFlowSiteId": 115434
         },
         {
-          "id": 344789246,
+          "id": 345470847,
           "eventId": 893036,
           "siteUnitNumber": 12587,
           "bathingSite": "SOUTHWICK",
@@ -962,7 +589,7 @@
           "historicSpillsList": []
         },
         {
-          "id": 344789247,
+          "id": 345470848,
           "eventId": 893036,
           "siteUnitNumber": 12588,
           "bathingSite": "SHOREHAM BEACH",
@@ -979,7 +606,7 @@
       ]
     },
     {
-      "id": 344796148,
+      "id": 345477750,
       "eventId": 891155,
       "siteUnitNumber": 12575,
       "bathingSite": "HASTINGS PELHAM BEACH",
@@ -993,21 +620,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344796148,
-          "eventId": 891155,
-          "siteUnitNumber": 12575,
-          "bathingSite": "HASTINGS PELHAM BEACH",
-          "eventStart": "2023-11-02T06:48:19",
-          "eventStop": "2023-11-02T08:45:00",
-          "duration": 116,
-          "status": "Genuine",
-          "associatedSiteId": 109982,
-          "outfallName": "COOMBS HASTINGS",
-          "isImpacting": true,
-          "overFlowSiteId": 110211
-        },
-        {
-          "id": 344796149,
+          "id": 345477751,
           "eventId": 891155,
           "siteUnitNumber": 12576,
           "bathingSite": "ST LEONARDS",
@@ -1024,7 +637,7 @@
       ]
     },
     {
-      "id": 344789251,
+      "id": 345470852,
       "eventId": 893035,
       "siteUnitNumber": 12586,
       "bathingSite": "HOVE",
@@ -1038,7 +651,7 @@
       "overFlowSiteId": 0,
       "historicSpillsList": [
         {
-          "id": 344789251,
+          "id": 345470852,
           "eventId": 893035,
           "siteUnitNumber": 12586,
           "bathingSite": "HOVE",
@@ -1052,7 +665,7 @@
           "overFlowSiteId": 115434
         },
         {
-          "id": 344789252,
+          "id": 345470853,
           "eventId": 893035,
           "siteUnitNumber": 12587,
           "bathingSite": "SOUTHWICK",
@@ -1067,7 +680,7 @@
           "historicSpillsList": []
         },
         {
-          "id": 344789253,
+          "id": 345470854,
           "eventId": 893035,
           "siteUnitNumber": 12588,
           "bathingSite": "SHOREHAM BEACH",
@@ -1084,7 +697,7 @@
       ]
     },
     {
-      "id": 344773206,
+      "id": 345454807,
       "eventId": 892926,
       "siteUnitNumber": 12549,
       "bathingSite": "HERNE BAY CENTRAL",
@@ -1094,99 +707,9 @@
       "status": "Genuine",
       "associatedSiteId": 109678,
       "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-      "isImpacting": true,
+      "isImpacting": false,
       "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344773206,
-          "eventId": 892926,
-          "siteUnitNumber": 12549,
-          "bathingSite": "HERNE BAY CENTRAL",
-          "eventStart": "2023-11-02T08:38:00",
-          "eventStop": "2023-11-02T08:41:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093
-        },
-        {
-          "id": 344773207,
-          "eventId": 892926,
-          "siteUnitNumber": 12551,
-          "bathingSite": "HERNE BAY",
-          "eventStart": "2023-11-02T08:38:00",
-          "eventStop": "2023-11-02T08:41:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109678,
-          "outfallName": "EDDINGTON LANE HERNE BAY NO2",
-          "isImpacting": true,
-          "overFlowSiteId": 108093,
-          "historicSpillsList": []
-        }
-      ]
-    },
-    {
-      "id": 344789257,
-      "eventId": 893027,
-      "siteUnitNumber": 12586,
-      "bathingSite": "HOVE",
-      "eventStart": "2023-11-02T08:34:00",
-      "eventStop": "2023-11-02T08:37:00",
-      "duration": 3,
-      "status": "Genuine",
-      "associatedSiteId": 109929,
-      "outfallName": "SHOREHAM NO1",
-      "isImpacting": true,
-      "overFlowSiteId": 0,
-      "historicSpillsList": [
-        {
-          "id": 344789257,
-          "eventId": 893027,
-          "siteUnitNumber": 12586,
-          "bathingSite": "HOVE",
-          "eventStart": "2023-11-02T08:34:00",
-          "eventStop": "2023-11-02T08:37:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109929,
-          "outfallName": "SHOREHAM NO1",
-          "isImpacting": true,
-          "overFlowSiteId": 115434
-        },
-        {
-          "id": 344789258,
-          "eventId": 893027,
-          "siteUnitNumber": 12587,
-          "bathingSite": "SOUTHWICK",
-          "eventStart": "2023-11-02T08:34:00",
-          "eventStop": "2023-11-02T08:37:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109929,
-          "outfallName": "SHOREHAM NO1",
-          "isImpacting": true,
-          "overFlowSiteId": 115434,
-          "historicSpillsList": []
-        },
-        {
-          "id": 344789259,
-          "eventId": 893027,
-          "siteUnitNumber": 12588,
-          "bathingSite": "SHOREHAM BEACH",
-          "eventStart": "2023-11-02T08:34:00",
-          "eventStop": "2023-11-02T08:37:00",
-          "duration": 3,
-          "status": "Genuine",
-          "associatedSiteId": 109929,
-          "outfallName": "SHOREHAM NO1",
-          "isImpacting": true,
-          "overFlowSiteId": 115434,
-          "historicSpillsList": []
-        }
-      ]
+      "historicSpillsList": []
     }
   ]
 }
