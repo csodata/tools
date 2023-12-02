@@ -27,7 +27,7 @@ JSON data on CSO discharge is not available as a single file.  Instead, Southern
 
 To run use: `node download.js`
 
-** Arguments **
+**Arguments**
 * `--from x` will start at page _x_, e.g. `node download.js --from 109` will begin downloading from page 109 and continue incrementally to the last page (or a page specified by `--to`).
 * `--to y` will stop at page _y_, e.g. `node download.js --to 115` will incrementally download all pages up to and including page 115.
 * `--all` will run a complete download, starting at page one and retrieving all pages up to and including the last current page.  e.g. `node download.js --all`
