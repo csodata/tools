@@ -1,3 +1,4 @@
+import { log } from 'console';
 import { promises as fs } from 'fs';
 import path from 'path';
 
@@ -117,7 +118,84 @@ function extractStatuses() {
   return [...new Set(statuses)];
 }
 
+
+function checkTotalsMatch(durationTotal, minutesArray, eventId) {
+    //compare durationTotal with the sum of the minutesArray
+    const minutesArrayTotal = minutesArray.reduce((a, b) => a + b, 0);
+    if (minutesArrayTotal !== durationTotal) {
+      throw new Error(`Problem on ${eventId} - durationTotal ${durationTotal} does not match minutesArrayTotal ${minutesArrayTotal}`);
+    }
+}
+  
+
+/**
+ * analyse all spillage times and generate a csv file with the number minutes
+ * spilled every <size> minutes so for example, if there are 100 spills recorded
+ * as being active at 10:00, then the csv file would have a row with 100 in the
+ * 10:00 column
+ * This must cope with spills that span multiple days
+ * todo - improve so that long spills are rported properly!
+ */
+const minutesInDay = 24 * 60;
+async function analyseTimes(size = 60) {
+
+  let minutesArray = new Array(minutesInDay).fill(0);
+  let durationTotal = 0
+
+  // loop over data.items and for each item log the minutes between start and end time.  
+  for (const item of data.items) {
+    const start = new Date(item.eventStart);
+    const duration = item.duration;
+    durationTotal += duration;
+
+    let startMinute = start.getHours() * 60 + start.getMinutes();
+ 
+    for (let i = 0; i < duration; i++) {
+      let minute = (startMinute + i) % minutesInDay;
+      minutesArray[minute]++;
+    }
+
+    checkTotalsMatch(durationTotal, minutesArray, item.eventId);
+  }
+
+  log(minutesArray);
+
+  // refactor data in the minutes array to group by hour
+  let hoursArray = [];
+  for (let i = 0; i < minutesArray.length; i += size) {
+
+    // sum the parts of the array we're interested in absed on size
+    const subTotalMins = minutesArray.slice(i, i + size).reduce((a, b) => a + b, 0); 
+    
+    // where i is the number of minutes since midnight, calculate the time of i in hours and minutes
+    const hours = Math.floor(i / 60).toString().padStart(2, '0')
+    const minutes = (i % 60).toString().padStart(2, '0');
+    const time = `${hours}${minutes}`;
+
+    hoursArray.push({ time, subTotalMins });
+
+  }
+
+  // write out the hours array to a csv file
+  const outPath = path.join(outputPath, `cso-day-profile-${size}.csv`);
+  const header = ['time', 'subTotalMins'];
+  let csv = hoursArray.map(row => header.map(fieldName => row[fieldName]).join(','));
+  csv.unshift(header.join(','));
+  csv = csv.join('\r\n');
+
+  // write the file to outpath
+
+  await fs.writeFile(outPath, csv);
+  await report(outPath)
+}
+
+
 try {
+  analyseTimes(5);
+  analyseTimes(10);
+  analyseTimes(15);
+  analyseTimes(30);
+  analyseTimes(60);
   filterHistoricSpills();
   generateCSV();
   reportMeta(); 
