@@ -1,18 +1,18 @@
-#  Splash
+#  CSO Data Tools
 ## CSO discharge data from Southern Water's Beachbuoy service
 
-This [repository](https://github.com/portsoc/splash) contains tools for reading and processing Combined Serage Overspill (CSO) discharge data from Southern Water's Beachbuoy service.
+This [repository](https://github.com/csodata/tools) contains tools for reading and processing Combined Serage Overspill (CSO) discharge data from Southern Water's Beachbuoy service.
 Beachbuoy is a website that provides CSO discharge information in discrete pages, with 25 records per page.  Anybody wishing to analyse the data would have to manually downloading each page and combine the data by hand: a process that would take many hours and be prone to error.  Herein are tools that solve that problem by automating the process. 
 
 Code is written using JavaScript/node (tested on version 19).
 
 ## Installation
 ```shell
-gh repo clone portsoc/splash
+gh repo clone csodata/tools
 ```
 
 ## Feedback
-If you notice any problems or have enhancements to suggest, please add an entry in the [issues](https://github.com/portsoc/splash/issues) page.
+If you notice any problems or have enhancements to suggest, please add an entry in the [issues](https://github.com/csodata/tools/issues) page.
 
 ## Sample Data
 If you just want to use the data, you probably don't need to run these tools and can focus on the [data](/data) folder, files include:
