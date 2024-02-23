@@ -4,7 +4,7 @@
 This [repository](https://github.com/portsoc/splash) contains tools for reading and processing Combined Serage Overspill (CSO) discharge data from Southern Water's Beachbuoy service.
 Code is written using JavaScript/node (tested on version 19).
 
-## Improvements
+## Feedback
 If you notice any problems or have enhancements to suggest, please add an entry in the [issues](https://github.com/portsoc/splash/issues) page.
 
 ## Sample Data
