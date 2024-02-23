@@ -2,7 +2,14 @@
 ## CSO discharge data from Southern Water's Beachbuoy service
 
 This [repository](https://github.com/portsoc/splash) contains tools for reading and processing Combined Serage Overspill (CSO) discharge data from Southern Water's Beachbuoy service.
+Beachbuoy is a website that provides CSO discharge information in discrete pages, with 25 records per page.  Anybody wishing to analyse the data would have to manually downloading each page and combine the data by hand: a process that would take many hours and be prone to error.  Herein are tools that solve that problem by automating the process. 
+
 Code is written using JavaScript/node (tested on version 19).
+
+## Installation
+```shell
+gh repo clone portsoc/splash
+```
 
 ## Feedback
 If you notice any problems or have enhancements to suggest, please add an entry in the [issues](https://github.com/portsoc/splash/issues) page.
@@ -24,7 +31,7 @@ If you just want to use the data, you probably don't need to run these tools and
 ## Tools
 
 ### download.js
-JSON data on CSO discharge is not available as a single file.  Instead, Southern Water's API provides 25 records per 'page'.  This tool requests every page sequentially and stores each as a file in the `data` subfolder.  These are the `CSO-n.json` files found in `data/raw`.  This tool may take several hours to run and when it does so it will replace all the files in the data folder, following which a `git diff` should quickly show if there have been any material changes to any pages since the last committed version in the repository.  The `id` field in these files is prone to regular changes and is not stable between downloads (instead use `eventID`).
+This tool requests data from every page and stores each as a file in the `data` subfolder.  These are the `CSO-n.json` files found in `data/raw`.  This tool may take several hours to run and when it does so it will replace all the files in the data folder, following which a `git diff` should quickly show if there have been any material changes to any pages since the last committed version in the repository.  The `id` field in these files is prone to regular changes and is not stable between downloads (instead use `eventID`).
 
 To run use:
 ```shell
